@@ -9,6 +9,7 @@ A small learning project for practicing JavaScript and Playwright concepts.
   - `Chapter_02_JSConcepts/` - JavaScript concept demonstrations such as `let` behavior.
   - `Chapter_03_Identifiers/` - identifier naming rules, comments, and related exercises.
   - `Chapter_04_Literals/` - examples focused on literal values in JavaScript.
+  - `Chapter_05_Operators/` - operator examples, comparisons, ternary logic, and type inspection.
   - `TestPlanPrompt_RICEPOTS.txt` - a testing prompt or planning note for the project.
 
 ## Files and purpose
@@ -27,6 +28,25 @@ A small learning project for practicing JavaScript and Playwright concepts.
 
 ### Chapter_04_Literals
 - `07_Literals.js` - shows literal assignment for strings, booleans, numbers, `null`, and `undefined`; also uses `typeof` to inspect variable types.
+
+### Chapter_05_Operators
+- `13_Datatype.js` - introduces JavaScript data types and how they are represented.
+- `14_Assignment_Operators.js` - demonstrates assignment operators and variable initialization.
+- `15_Arithematic_Operators.js` - shows arithmetic operator usage with addition, subtraction, multiplication, division, and modulus.
+- `16_Comparison_Operatos.js` - compares values using equality and relational operators.
+- `17_Logical_Operators.js` - demonstrates logical operators `&&`, `||`, and `!` for boolean expressions.
+- `18_Operators_Workshop.js` - operator practice examples and small problems.
+- `19_Confusing_OperatorsWSP2.js` - highlights tricky or confusing operator behavior to reinforce correct usage.
+- `21_String_Operator.js` - explores string concatenation and operator interaction with text values.
+- `22_Ternary_Operator.js` - explains the ternary conditional operator and simple inline conditionals.
+- `23_IQ1.js` - practice or quiz-style questions on operators and JavaScript concepts.
+- `24_IQ2.js` - additional quiz-style operator examples for deeper learning.
+- `25_IQ3.js` - third challenge file with operator-related puzzles or practice exercises.
+- `26_IQ4.js` - fourth challenge file for operators and conditional logic practice.
+- `27_Nested_TernaryOP.js` - demonstrates nested ternary operators and how to read them.
+- `28_NTO_IQ1.js` - nested ternary quiz or practice exercise 1.
+- `29_NTO_IQ2.js` - nested ternary quiz or practice exercise 2.
+- `30_Typeof_Operator.js` - demonstrates the `typeof` operator to inspect JavaScript variable types.
 
 ## Purpose
 
