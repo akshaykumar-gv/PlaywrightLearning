@@ -47,6 +47,9 @@ A small learning project for practicing JavaScript and Playwright concepts.
 - `28_NTO_IQ1.js` - nested ternary quiz or practice exercise 1.
 - `29_NTO_IQ2.js` - nested ternary quiz or practice exercise 2.
 - `30_Typeof_Operator.js` - demonstrates the `typeof` operator to inspect JavaScript variable types.
+ - `31_inc_dec_op.js` - demonstrates increment and decrement operators (`++` and `--`) in prefix and postfix forms.
+ - `34_Decrement_Op.js` - focused examples on decrement operator behavior and edge cases.
+ - `35_Nulllish_Coaelsing.js` - examples and notes on the nullish coalescing operator (`??`) and common use cases.
 
 ## Purpose
 
