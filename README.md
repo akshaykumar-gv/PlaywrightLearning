@@ -10,6 +10,9 @@ A small learning project for practicing JavaScript and Playwright concepts.
   - `Chapter_03_Identifiers/` - identifier naming rules, comments, and related exercises.
   - `Chapter_04_Literals/` - examples focused on literal values in JavaScript.
   - `Chapter_05_Operators/` - operator examples, comparisons, ternary logic, and type inspection.
+  - `Chapter_06_IFStatements/` - conditional logic with if-else statements and practice exercises.
+  - `Chapter_07_SwitchStatement/` - switch-case statement syntax, use cases, and real-world examples.
+  - `Chapter_08_UserInputs/` - methods for accepting user input from web, Node.js, and file system.
   - `TestPlanPrompt_RICEPOTS.txt` - a testing prompt or planning note for the project.
 
 ## Files and purpose
@@ -50,6 +53,28 @@ A small learning project for practicing JavaScript and Playwright concepts.
  - `31_inc_dec_op.js` - demonstrates increment and decrement operators (`++` and `--`) in prefix and postfix forms.
  - `34_Decrement_Op.js` - focused examples on decrement operator behavior and edge cases.
  - `35_Nulllish_Coaelsing.js` - examples and notes on the nullish coalescing operator (`??`) and common use cases.
+
+### Chapter_06_IFStatements
+- `36_If_Statement.js` - basic if-else conditional logic and statement execution flow.
+- `37_IQ2.js` - practice questions for if-else statement understanding.
+- `38_IQ3.js` - additional exercises on conditional logic and control flow.
+
+### Chapter_07_SwitchStatement
+- `39_SwitchUsecase.js` - introduces switch statement syntax and basic use cases.
+- `40_IQ.js` - initial practice questions on switch statements.
+- `41_IQ2.js` - intermediate switch statement exercises.
+- `42_Real_Switch_Example.js` - real-world application of switch statements.
+- `43_SwitchCaseGrouping.js` - demonstrates how multiple cases can be grouped and handled together.
+- `44_IQ3.js` - advanced practice questions on switch statements.
+- `45_IQ4.js` - fourth challenge on switch statement concepts.
+- `46_IQ5.js` - fifth challenge with complex switch statement scenarios.
+- `47_IQ6.js` - sixth challenge for reinforcing switch statement mastery.
+
+### Chapter_08_UserInputs
+- `48_JS_WebMethod.js` - demonstrates input methods in web browsers (e.g., `prompt()`, `confirm()`).
+- `49_Node_Method_UI.js` - user input techniques in Node.js environment.
+- `50_PromptSync_UI.js` - synchronous prompting in Node.js using `prompt-sync` library.
+- `51_FS_Method.js` - file system methods for reading and writing data using Node.js `fs` module.
 
 ## Purpose
 
