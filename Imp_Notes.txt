@@ -1,3 +1,6 @@
 https://github.com/PramodDutta/LearningPlaywright3x
 https://app.thetestingacademy.com/masterclass/copilot
 https://app.thetestingacademy.com/masterclass/copilot-tips
+https://app.thetestingacademy.com/masterclass/copilot#example
+
+https://app.thetestingacademy.com/ai/prompt-vs-skill-vs-aiagent#tab5
