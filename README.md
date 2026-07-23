@@ -13,6 +13,7 @@ A small learning project for practicing JavaScript and Playwright concepts.
   - `Chapter_06_IFStatements/` - conditional logic with if-else statements and practice exercises.
   - `Chapter_07_SwitchStatement/` - switch-case statement syntax, use cases, and real-world examples.
   - `Chapter_08_UserInputs/` - methods for accepting user input from web, Node.js, and file system.
+  - `Chapter_09_Loops/` - repetition with `for`, `while`, and `do...while` loops, including nested loops and exercises.
   - `TestPlanPrompt_RICEPOTS.txt` - a testing prompt or planning note for the project.
 
 ## Files and purpose
@@ -75,6 +76,20 @@ A small learning project for practicing JavaScript and Playwright concepts.
 - `49_Node_Method_UI.js` - user input techniques in Node.js environment.
 - `50_PromptSync_UI.js` - synchronous prompting in Node.js using `prompt-sync` library.
 - `51_FS_Method.js` - file system methods for reading and writing data using Node.js `fs` module.
+
+### Chapter_09_Loops
+- `52_loop.js` - introduces repetition by displaying a sequence of values.
+- `53_ForLoop.js` - demonstrates `for` loop initialization, conditions, and increments.
+- `54_ForLoop2.js` - practices `for` loops with different starting and ending values.
+- `55_ForLoop3.js` - applies conditional logic inside a `for` loop.
+- `56_WhileLoop.js` - compares a `for` loop with an equivalent `while` loop.
+- `57_WhileLoop2.js` - demonstrates a limited retry loop with `while`.
+- `58_WhileLoop3.js` - repeats a statement while a counter remains within a range.
+- `59_WhileWithBreak.js` - uses `break` to exit an otherwise continuous `while` loop.
+- `60_DoWhile.js` - demonstrates a `do...while` loop for repeated execution.
+- `61_DoWhileVSWhile.js` - compares `do...while` and `while` behavior when the condition starts false.
+- `62_NestedForLoop.js` - demonstrates nested `for` loops using two counters.
+- `tasksIQ.js` - contains loop practice questions and pattern-printing exercises.
 
 ## Purpose
 
