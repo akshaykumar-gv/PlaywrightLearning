@@ -112,11 +112,16 @@ This repository is intended as a learning resource for understanding JavaScript 
 
 1. Open the project in Visual Studio Code.
 2. Explore chapter folders and review the sample scripts.
-3. Run any JavaScript example using Node.js, for example:
+3. Run any JavaScript example using Node.js from the repository root, for example:
 
 ```powershell
-node .\PlaywrightLearning\Chapter_04_Literals\07_Literals.js
+cd .\PlaywrightLearning\Chapter_10_Arrays
+node 70_ArraySearching.js
 ```
+
+## Changelog
+
+- 2026-07-28: Added `Chapter_10_Arrays` documentation and file descriptions.
 
 ## Notes
 
