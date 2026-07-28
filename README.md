@@ -14,6 +14,7 @@ A small learning project for practicing JavaScript and Playwright concepts.
   - `Chapter_07_SwitchStatement/` - switch-case statement syntax, use cases, and real-world examples.
   - `Chapter_08_UserInputs/` - methods for accepting user input from web, Node.js, and file system.
   - `Chapter_09_Loops/` - repetition with `for`, `while`, and `do...while` loops, including nested loops and exercises.
+  - `Chapter_10_Arrays/` - array creation, access, modification, searching, and iteration examples.
   - `TestPlanPrompt_RICEPOTS.txt` - a testing prompt or planning note for the project.
 
 ## Files and purpose
@@ -90,6 +91,18 @@ A small learning project for practicing JavaScript and Playwright concepts.
 - `61_DoWhileVSWhile.js` - compares `do...while` and `while` behavior when the condition starts false.
 - `62_NestedForLoop.js` - demonstrates nested `for` loops using two counters.
 - `tasksIQ.js` - contains loop practice questions and pattern-printing exercises.
+
+### Chapter_10_Arrays
+- `64_ArrayIntro.js` - introduces arrays and array literals in JavaScript.
+- `65_ArrayIntro2.js` - explores array indexing, length, and common array operations.
+- `66_ArrayCreation.js` - shows different ways to create arrays and initialize values.
+- `67_ArrayAccessModify.js` - demonstrates accessing and modifying array elements.
+- `68_ArrayAddingRemoving.js` - covers adding and removing items from arrays.
+- `69_ArrayRTExample.js` - runtime examples of array behavior and use cases.
+- `70_ArraySearching.js` - searches arrays with index and condition-based methods.
+- `71_ArrayMoreIBMethods.js` - explains more built-in array methods for manipulation.
+- `72_ArrayIterate.js` - iterates arrays using loops and callback-based methods.
+- `sample.js` - a sample file demonstrating array usage patterns.
 
 ## Purpose
 
