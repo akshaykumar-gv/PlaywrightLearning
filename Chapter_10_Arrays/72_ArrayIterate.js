@@ -32,3 +32,7 @@ let students = ["methis", "senthil", "ajay", "rahul"];
 for (let student in students) {
     console.log(student, " -> ", students[student]); // index = in
 }
+
+console.log(typeof null);
+console.log(typeof undefined);
+console.log(typeof NaN);
