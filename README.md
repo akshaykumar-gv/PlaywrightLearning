@@ -123,6 +123,24 @@ node 70_ArraySearching.js
 
 - 2026-07-28: Added `Chapter_10_Arrays` documentation and file descriptions.
 
+## Playwright
+
+- **Install:**
+  - `npm install -D @playwright/test`
+  - `npx playwright install`
+- **Run tests:**
+  - `npx playwright test`
+- **View report:**
+  - `npx playwright show-report`
+
+## Contributing
+
+- **Run examples locally:** change into a chapter folder and run a file with Node.js, for example:
+  - `cd PlaywrightLearning/Chapter_10_Arrays`
+  - `node 70_ArraySearching.js`
+- **Add content:** create a new `Chapter_*` folder with examples and update this README.
+- **Pull requests:** fork the repository, open a branch with your changes, and create a PR with a short description of what you added and why.
+
 ## Notes
 
 - This is a personal learning workspace rather than a packaged application.
