@@ -1,8 +1,8 @@
 console.log(x);
 var x = 10;
 
-console.log(y);
-let y = 10;
+// console.log(y);
+// let y = 10;
 
 console.log(true + true);
 console.log(0 || "hello");

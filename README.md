@@ -15,6 +15,8 @@ A small learning project for practicing JavaScript and Playwright concepts.
   - `Chapter_08_UserInputs/` - methods for accepting user input from web, Node.js, and file system.
   - `Chapter_09_Loops/` - repetition with `for`, `while`, and `do...while` loops, including nested loops and exercises.
   - `Chapter_10_Arrays/` - array creation, access, modification, searching, and iteration examples.
+  - `Chapter_11_Functions/` - function declarations, expressions, arrow functions, hoisting, and spread/rest examples.
+  - `Chapter_12_FunctionClosure/` - function scope and closure concepts with practical demos.
   - `TestPlanPrompt_RICEPOTS.txt` - a testing prompt or planning note for the project.
 
 ## Files and purpose
@@ -52,9 +54,9 @@ A small learning project for practicing JavaScript and Playwright concepts.
 - `28_NTO_IQ1.js` - nested ternary quiz or practice exercise 1.
 - `29_NTO_IQ2.js` - nested ternary quiz or practice exercise 2.
 - `30_Typeof_Operator.js` - demonstrates the `typeof` operator to inspect JavaScript variable types.
- - `31_inc_dec_op.js` - demonstrates increment and decrement operators (`++` and `--`) in prefix and postfix forms.
- - `34_Decrement_Op.js` - focused examples on decrement operator behavior and edge cases.
- - `35_Nulllish_Coaelsing.js` - examples and notes on the nullish coalescing operator (`??`) and common use cases.
+- `31_inc_dec_op.js` - demonstrates increment and decrement operators (`++` and `--`) in prefix and postfix forms.
+- `34_Decrement_Op.js` - focused examples on decrement operator behavior and edge cases.
+- `35_Nulllish_Coaelsing.js` - examples and notes on the nullish coalescing operator (`??`) and common use cases.
 
 ### Chapter_06_IFStatements
 - `36_If_Statement.js` - basic if-else conditional logic and statement execution flow.
@@ -103,6 +105,33 @@ A small learning project for practicing JavaScript and Playwright concepts.
 - `71_ArrayMoreIBMethods.js` - explains more built-in array methods for manipulation.
 - `72_ArrayIterate.js` - iterates arrays using loops and callback-based methods.
 - `sample.js` - a sample file demonstrating array usage patterns.
+
+### Chapter_11_Functions
+- `80_Function.js` - basic function declaration and invocation examples.
+- `81_Function.js` - additional function examples and use cases.
+- `82_Type1_Function.js` - type 1 function syntax and parameter handling.
+- `83_Type2_Function.js` - function expression examples.
+- `84_Type3_Function.js` - advanced function examples and patterns.
+- `85_Type4_Function.js` - additional function styles and behaviors.
+- `86_FunctionAsExpression.js` - functions used as expressions and passed as values.
+- `87_Arrow_Function.js` - arrow function syntax and simple arrow examples.
+- `88_ArrowFunction_MoreEx.js` - more arrow function examples and comparisons.
+- `89_RealTime_Example.js` - real-world function usage scenarios.
+- `90_IIFE.js` - immediately-invoked function expression examples.
+- `91_SpreadFunction.js` - spread operator and rest parameter demonstrations.
+- `92_ReturnFunction.js` - returning values from functions and using results.
+- `93_Var_Let_Const.js` - variable declarations inside functions with `var`, `let`, and `const`.
+- `94_Hoisting.js` - hoisting behavior for variables and functions.
+- `95_Var_Hoisting.js` - detailed examples of `var` hoisting.
+- `96-FnHoisting.js` - function hoisting examples.
+- `97_Let_Hoisting.js` - `let` hoisting and temporal dead zone demonstrations.
+- `98_TDZ.js` - temporal dead zone examples and error behavior.
+- `99_IQ.js` - function practice questions and quiz examples.
+- `sample.js` - sample function usage patterns.
+
+### Chapter_12_FunctionClosure
+- `103_Function_Scope.js` - demonstrates function scope and variable visibility.
+- `104_Function_Closure.js` - closure examples showing how functions retain access to outer scope.
 
 ## Purpose
 
