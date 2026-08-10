@@ -1,6 +1,6 @@
 # TTA Learn Playwright
 
-A small learning project for practicing JavaScript and Playwright concepts.
+A personal learning repository for practicing JavaScript fundamentals and Playwright concepts.
 
 ## Project structure
 
@@ -14,10 +14,12 @@ A small learning project for practicing JavaScript and Playwright concepts.
   - `Chapter_07_SwitchStatement/` - switch-case statement syntax, use cases, and real-world examples.
   - `Chapter_08_UserInputs/` - methods for accepting user input from web, Node.js, and file system.
   - `Chapter_09_Loops/` - repetition with `for`, `while`, and `do...while` loops, including nested loops and exercises.
-  - `Chapter_10_Arrays/` - array creation, access, modification, searching, and iteration examples.
+  - `Chapter_10_Arrays/` - array creation, access, modification, searching, sorting, and transformation examples.
   - `Chapter_11_Functions/` - function declarations, expressions, arrow functions, hoisting, and spread/rest examples.
-  - `Chapter_12_FunctionClosure/` - function scope and closure concepts with practical demos.
-  - `TestPlanPrompt_RICEPOTS.txt` - a testing prompt or planning note for the project.
+  - `Chapter_12_FunctionClosure/` - function scope, closures, and function memory behavior.
+  - `Chapter_13_Strings/` - string declaration, string methods, and string search examples.
+  - `Imp_Notes.txt` - implementation notes, reminders, and study pointers.
+  - `TestPlanPrompt_RICEPOTS.txt` - planning notes or testing prompts for the project.
 
 ## Files and purpose
 
@@ -35,6 +37,10 @@ A small learning project for practicing JavaScript and Playwright concepts.
 
 ### Chapter_04_Literals
 - `07_Literals.js` - shows literal assignment for strings, booleans, numbers, `null`, and `undefined`; also uses `typeof` to inspect variable types.
+- `08_Null_Undefined.js` - explains `null`, `undefined`, and their differences.
+- `10_More_Literals.js` - covers additional literal examples and value initialization.
+- `11_Number_Literals.js` - demonstrates different number literal formats.
+- `12_Number_Literals_P2.js` - extends number literal examples with additional cases.
 
 ### Chapter_05_Operators
 - `13_Datatype.js` - introduces JavaScript data types and how they are represented.
@@ -48,7 +54,7 @@ A small learning project for practicing JavaScript and Playwright concepts.
 - `22_Ternary_Operator.js` - explains the ternary conditional operator and simple inline conditionals.
 - `23_IQ1.js` - practice or quiz-style questions on operators and JavaScript concepts.
 - `24_IQ2.js` - additional quiz-style operator examples for deeper learning.
-- `25_IQ3.js` - third challenge file with operator-related puzzles or practice exercises.
+- `25_IQ3.js` - third challenge file with operator-related puzzles and practice exercises.
 - `26_IQ4.js` - fourth challenge file for operators and conditional logic practice.
 - `27_Nested_TernaryOP.js` - demonstrates nested ternary operators and how to read them.
 - `28_NTO_IQ1.js` - nested ternary quiz or practice exercise 1.
@@ -68,17 +74,18 @@ A small learning project for practicing JavaScript and Playwright concepts.
 - `40_IQ.js` - initial practice questions on switch statements.
 - `41_IQ2.js` - intermediate switch statement exercises.
 - `42_Real_Switch_Example.js` - real-world application of switch statements.
-- `43_SwitchCaseGrouping.js` - demonstrates how multiple cases can be grouped and handled together.
+- `43_SwitchCaseGrouping.js` - demonstrates grouped `case` blocks in switch statements.
 - `44_IQ3.js` - advanced practice questions on switch statements.
-- `45_IQ4.js` - fourth challenge on switch statement concepts.
-- `46_IQ5.js` - fifth challenge with complex switch statement scenarios.
-- `47_IQ6.js` - sixth challenge for reinforcing switch statement mastery.
+- `45_IQ4.js` - challenge problems for switch statement concepts.
+- `46_IQ5.js` - complex switch scenario examples.
+- `47_IQ6.js` - advanced reinforcement for switch mastery.
 
 ### Chapter_08_UserInputs
-- `48_JS_WebMethod.js` - demonstrates input methods in web browsers (e.g., `prompt()`, `confirm()`).
+- `48_JS_WebMethod.js` - demonstrates input methods in web browsers (e.g., `prompt()` and `confirm()`).
 - `49_Node_Method_UI.js` - user input techniques in Node.js environment.
 - `50_PromptSync_UI.js` - synchronous prompting in Node.js using `prompt-sync` library.
 - `51_FS_Method.js` - file system methods for reading and writing data using Node.js `fs` module.
+- `livetest.js` - additional interactive input experiments.
 
 ### Chapter_09_Loops
 - `52_loop.js` - introduces repetition by displaying a sequence of values.
@@ -92,6 +99,8 @@ A small learning project for practicing JavaScript and Playwright concepts.
 - `60_DoWhile.js` - demonstrates a `do...while` loop for repeated execution.
 - `61_DoWhileVSWhile.js` - compares `do...while` and `while` behavior when the condition starts false.
 - `62_NestedForLoop.js` - demonstrates nested `for` loops using two counters.
+- `63_IQ2.js` - loop practice questions and challenge examples.
+- `liveTest.js` - quick live loop testing and experimentation.
 - `tasksIQ.js` - contains loop practice questions and pattern-printing exercises.
 
 ### Chapter_10_Arrays
@@ -104,7 +113,15 @@ A small learning project for practicing JavaScript and Playwright concepts.
 - `70_ArraySearching.js` - searches arrays with index and condition-based methods.
 - `71_ArrayMoreIBMethods.js` - explains more built-in array methods for manipulation.
 - `72_ArrayIterate.js` - iterates arrays using loops and callback-based methods.
+- `73_Array_Transform.js` - array transform and mapping examples.
+- `74_Sorting.js` - sorting arrays and using comparison functions.
+- `75_Slicing.js` - works with array subsets using slice and splice.
+- `76_ArrayConcat.js` - concatenates arrays and merges values.
+- `77_ArrayChecking.js` - checks arrays with built-in methods.
+- `78_ArrayCopy.js` - array copy, cloning, and shallow copy behavior.
+- `79_ArrayDestructuring.js` - destructures array values into separate variables.
 - `sample.js` - a sample file demonstrating array usage patterns.
+- `TestPart2.js` - additional array experiments and examples.
 
 ### Chapter_11_Functions
 - `80_Function.js` - basic function declaration and invocation examples.
@@ -132,6 +149,18 @@ A small learning project for practicing JavaScript and Playwright concepts.
 ### Chapter_12_FunctionClosure
 - `103_Function_Scope.js` - demonstrates function scope and variable visibility.
 - `104_Function_Closure.js` - closure examples showing how functions retain access to outer scope.
+- `105_Function_Rememberance.js` - closure examples and function memory behavior.
+- `106_RTExample.js` - real-time examples for closure and scope.
+- `107_Simple.js` - simple closure and function scope demonstrations.
+
+### Chapter_13_Strings
+- `109_String_Declaration_Types.js` - shows different string declaration styles and usage.
+- `110_StringFunctions.js` - demonstrates common string methods and functions.
+- `111_StringSearching.js` - searches strings using built-in string methods.
+
+## Top-level files
+- `Imp_Notes.txt` - implementation notes, reminders, and study pointers.
+- `TestPlanPrompt_RICEPOTS.txt` - planning notes or testing prompts for the project.
 
 ## Purpose
 
@@ -151,6 +180,7 @@ node 70_ArraySearching.js
 ## Changelog
 
 - 2026-07-28: Added `Chapter_10_Arrays` documentation and file descriptions.
+- 2026-08-07: Updated README to reflect the complete current codebase structure.
 
 ## Playwright
 
