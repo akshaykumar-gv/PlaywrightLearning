@@ -18,7 +18,11 @@ A personal learning repository for practicing JavaScript fundamentals and Playwr
   - `Chapter_11_Functions/` - function declarations, expressions, arrow functions, hoisting, and spread/rest examples.
   - `Chapter_12_FunctionClosure/` - function scope, closures, and function memory behavior.
   - `Chapter_13_Strings/` - string declaration, string methods, and string search examples.
+  - `Chapter_14_Objects/` - object creation, manipulation, and reference behavior in JavaScript.
+  - `Chapter_15_MultiDimensionalArray/` - multidimensional arrays, matrix examples, and pattern printing.
   - `Imp_Notes.txt` - implementation notes, reminders, and study pointers.
+  - `String_CheatSheet.md` - quick reference notes for JavaScript string concepts.
+  - `102_Hoisting_TDZ.md` - additional notes on hoisting and temporal dead zone behavior.
   - `TestPlanPrompt_RICEPOTS.txt` - planning notes or testing prompts for the project.
 
 ## Files and purpose
@@ -158,6 +162,21 @@ A personal learning repository for practicing JavaScript fundamentals and Playwr
 - `110_StringFunctions.js` - demonstrates common string methods and functions.
 - `111_StringSearching.js` - searches strings using built-in string methods.
 
+### Chapter_14_Objects
+- `116_Object.js` - object creation and property access examples.
+- `117.PersonObject.js` - modeling a person object with properties and simple methods.
+- `119_ObjectModification.js` - object updates, property addition, deletion, and mutation behavior.
+- `120_ObjectRTExampleCnfig.js` - runtime object configuration example and dynamic property handling.
+- `121_CallByREF_CallByValue.js` - demonstrates reference versus value behavior with objects and primitives.
+
+### Chapter_15_MultiDimensionalArray
+- `122_MDArray.js` - basic multidimensional array creation and access examples.
+- `123_MDArray2.js` - advanced multidimensional array traversal and manipulation.
+- `124_MDArrayFn.js` - functions that operate on multidimensional arrays.
+- `125_RightPyramidPattern.js` - prints a right-aligned pyramid pattern using array logic.
+- `126_LeftPyramidPattern.js` - prints a left-aligned pyramid pattern.
+- `127_PyramindPattern.js` - prints a centered pyramid pattern and demonstrates nested loops.
+
 ## Top-level files
 - `Imp_Notes.txt` - implementation notes, reminders, and study pointers.
 - `TestPlanPrompt_RICEPOTS.txt` - planning notes or testing prompts for the project.
@@ -181,6 +200,7 @@ node 70_ArraySearching.js
 
 - 2026-07-28: Added `Chapter_10_Arrays` documentation and file descriptions.
 - 2026-08-07: Updated README to reflect the complete current codebase structure.
+- 2026-08-12: Added `Chapter_14_Objects` and `Chapter_15_MultiDimensionalArray` descriptions and new top-level reference files.
 
 ## Playwright
 
