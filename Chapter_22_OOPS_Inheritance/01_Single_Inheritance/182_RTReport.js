@@ -12,7 +12,7 @@ class HTMLReport extends Report {
 
 class JSONReport extends Report {
     generate(data) {
-        console.log('{"report": "' + data + '"}');
+        console.log('{"reports": "' + data + '"}');
     }
 }
 
