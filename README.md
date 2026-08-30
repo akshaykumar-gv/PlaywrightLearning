@@ -20,9 +20,17 @@ A personal learning repository for practicing JavaScript fundamentals and Playwr
   - `Chapter_13_Strings/` - string declaration, string methods, and string search examples.
   - `Chapter_14_Objects/` - object creation, manipulation, and reference behavior in JavaScript.
   - `Chapter_15_MultiDimensionalArray/` - multidimensional arrays, matrix examples, and pattern printing.
+  - `Chapter_16_Callbacks/` - callback functions, callback hell, async callbacks, and real-time callback scenarios.
+  - `Chapter_17_Promise/` - Promise creation, chaining, `.finally()`, `.all()`, `.race()`, and practical promise examples.
+  - `Chapter_18_AsyncAwait/` - `async/await` patterns, sequential and parallel execution, and Playwright example tests.
+  - `Chapter_19_ExportImport/` - modular JavaScript using ES imports/exports and helper modules.
+  - `Chapter_20_OOPS_Class_Objects/` - class and object fundamentals, access modifiers, and static behavior in JavaScript.
+  - `Chapter_21_OOPS_Encapsulation/` - encapsulation patterns, class design, and object protection techniques.
+  - `Chapter_22_OOPS_Inheritance/` - single inheritance examples and real-world inheritance scenarios.
   - `Imp_Notes.txt` - implementation notes, reminders, and study pointers.
   - `String_CheatSheet.md` - quick reference notes for JavaScript string concepts.
   - `102_Hoisting_TDZ.md` - additional notes on hoisting and temporal dead zone behavior.
+  - `skillcreationStructure.md` - repository structure and project setup notes for learning workflows.
   - `TestPlanPrompt_RICEPOTS.txt` - planning notes or testing prompts for the project.
 
 ## Files and purpose
@@ -177,8 +185,76 @@ A personal learning repository for practicing JavaScript fundamentals and Playwr
 - `126_LeftPyramidPattern.js` - prints a left-aligned pyramid pattern.
 - `127_PyramindPattern.js` - prints a centered pyramid pattern and demonstrates nested loops.
 
+### Chapter_16_Callbacks
+- `128_Callback.js` - demonstrates callback function execution and callback-based control flow.
+- `129_Callback2.js` - explores additional callback concepts and usage patterns.
+- `130_SyncCallback.js` - shows a synchronous callback execution flow.
+- `131_AsyncCallback.js` - introduces asynchronous callbacks and event-driven behavior.
+- `132_CallbackHell.js` - demonstrates nested callback usage and why it becomes difficult to manage.
+- `133_Callback_RT.js` - real-time callback examples for practical learning.
+- `134_Callback_Return.js` - callback functions that return results and pass values.
+- `135_PyramidDOM.js` - callback-driven pattern generation example with DOM-like behavior.
+
+### Chapter_17_Promise
+- `136_Promise.js` - simple Promise creation and resolution handling.
+- `137_Promise_Real.js` - a more realistic Promise use case with application logic.
+- `138_PromiseRT.js` - real-time Promise scenarios and value chaining.
+- `139_PromiseFinally.js` - shows Promise finalization via `.finally()`.
+- `140_PromiseRT2.js` - additional promise runtime examples.
+- `141_PromiseAll.js` - combines multiple asynchronous tasks using `Promise.all()`.
+- `142_PromiseSettle.js` - demonstrates settlement handling with `Promise.allSettled()`.
+- `143_PromiseRace.js` - shows how `Promise.race()` resolves the fastest result.
+- `144_IQ.js` - promise practice questions and exercises.
+- `145_IQ.js` - another promise challenge or quiz file.
+
+### Chapter_18_AsyncAwait
+- `146_AsynAwait.js` - introduces `async`/`await` syntax and its advantages over raw Promise chains.
+- `147_BetterWayOfHandlingPromisesUsingAsynAwait.js` - better structured async handling patterns.
+- `148_Example2.js` - additional `await` examples and asynchronous flow.
+- `149_PlaywrightExample.spec.js` - Playwright test example using `await page.goto()` and assertions.
+- `150_trycatch.js` - demonstrates `try/catch` with async execution.
+- `151_SequentialExecutions.js` - shows sequential async tasks and controlled timing.
+- `152_ParallelExecution.js` - demonstrates running async tasks in parallel.
+- `153_APiFlakyTestRerunLogic.js` - async/flaky test handling ideas for testing workflows.
+- `154_IQs.js` - async and await practice questions.
+- `Sample.js` - sample usage file for async exercises.
+
+### Chapter_19_ExportImport
+- `155_ExportImport.js` - demonstrates JavaScript module export/import syntax.
+- `156_ImportAsAlias.js` - imports modules with alias names.
+- `157_ImportAsAlias2.js` - advanced alias-based import patterns.
+- `Logger/` - logger utility modules used by import/export examples.
+- `testUtil.js` - helper functions for test utilities.
+- `utils.js` - reusable JavaScript utility functions.
+
+### Chapter_20_OOPS_Class_Objects
+- `01_Class_Object/` - class structure, object creation, and simple object modeling examples.
+- `02_Public_Private/` - public and private class member examples.
+- `03_StaticJS/` - static methods and static properties in JavaScript classes.
+
+### Chapter_21_OOPS_Encapsulation
+- `169_Encapsulation.js` - encapsulation and data protection concepts in JavaScript.
+- `170_Car.js` - class-based encapsulation example with a car model.
+- `171_Ecap_Bank.js` - bank account or transaction example using encapsulated logic.
+- `172_IQ.js` - practice questions on encapsulation.
+- `173_IQ2.js` - additional encapsulation quiz examples.
+- `174_IQ3.js` - more practice problems.
+- `175_IQ4.js` - advanced encapsulation exercises.
+
+### Chapter_22_OOPS_Inheritance
+- `01_Single_Inheritance/` - single inheritance examples and inheritance-driven reporting scenarios.
+- `176_SingleInheritance.js` - basic single inheritance example.
+- `177.js` - short inheritance experiment or helper file.
+- `178_IQ.js` - inheritance quiz or practice examples.
+- `179_IQ.js` - additional inheritance exercises.
+- `180_IQ.js` - another quiz file for inheritance patterns.
+- `181_IQ.js` - more real-world challenge exercises.
+- `182_RTReport.js` - real-time report generation example using inheritance.
+
 ## Top-level files
 - `Imp_Notes.txt` - implementation notes, reminders, and study pointers.
+- `String_CheatSheet.md` - quick reference notes for JavaScript string concepts.
+- `skillcreationStructure.md` - repository organization notes and project workflow guidance.
 - `TestPlanPrompt_RICEPOTS.txt` - planning notes or testing prompts for the project.
 
 ## Purpose
@@ -201,6 +277,7 @@ node 70_ArraySearching.js
 - 2026-07-28: Added `Chapter_10_Arrays` documentation and file descriptions.
 - 2026-08-07: Updated README to reflect the complete current codebase structure.
 - 2026-08-12: Added `Chapter_14_Objects` and `Chapter_15_MultiDimensionalArray` descriptions and new top-level reference files.
+- 2026-08-30: Refreshed the README for the newer callback, Promise, async/await, export/import, and OOP chapters added to the learning repo.
 
 ## Playwright
 

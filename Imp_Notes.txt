@@ -4,3 +4,4 @@ https://app.thetestingacademy.com/masterclass/copilot-tips
 https://app.thetestingacademy.com/masterclass/copilot#example
 
 https://app.thetestingacademy.com/ai/prompt-vs-skill-vs-aiagent#tab5
+https://github.com/PramodDutta/skillmasterclass/blob/main/skillmasterclass/skills/02-test-planning/test-plan-generator/SKILL.md
