@@ -27,11 +27,17 @@ A personal learning repository for practicing JavaScript fundamentals and Playwr
   - `Chapter_20_OOPS_Class_Objects/` - class and object fundamentals, access modifiers, and static behavior in JavaScript.
   - `Chapter_21_OOPS_Encapsulation/` - encapsulation patterns, class design, and object protection techniques.
   - `Chapter_22_OOPS_Inheritance/` - single inheritance examples and real-world inheritance scenarios.
+  - `Chapter_23_Polymorphism/` - method overriding and polymorphism examples.
+  - `Chapter_24_OOPSInterviewQs/` - interview-style questions covering object-oriented programming concepts.
+  - `Chapter_25_TypescriptIntro/` - TypeScript functions, data types, objects, `unknown`, and `never`.
+  - `Chapter_26_Abstraction/` - reserved chapter folder for abstraction examples.
   - `Imp_Notes.txt` - implementation notes, reminders, and study pointers.
   - `String_CheatSheet.md` - quick reference notes for JavaScript string concepts.
   - `102_Hoisting_TDZ.md` - additional notes on hoisting and temporal dead zone behavior.
   - `skillcreationStructure.md` - repository structure and project setup notes for learning workflows.
   - `TestPlanPrompt_RICEPOTS.txt` - planning notes or testing prompts for the project.
+  - `scripts/go-go-go.ps1` - checks that the README exists and commits pending repository updates.
+  - `tsconfig.json` - shared TypeScript compiler configuration for the TypeScript examples.
 
 ## Files and purpose
 
@@ -251,11 +257,33 @@ A personal learning repository for practicing JavaScript fundamentals and Playwr
 - `181_IQ.js` - more real-world challenge exercises.
 - `182_RTReport.js` - real-time report generation example using inheritance.
 
+### Chapter_23_Polymorphism
+- `186_MethodOverriding.js` - demonstrates polymorphism through method overriding in derived classes.
+
+### Chapter_24_OOPSInterviewQs
+- `IQ1.js` through `IQ5.js` - interview-style practice questions for object-oriented programming concepts.
+
+### Chapter_25_TypescriptIntro
+- `187.ts` - introduces typed variables and function parameters and return types.
+- `188_HelloFunction.ts` - basic TypeScript function examples.
+- `189_TSDataType.ts` - demonstrates common TypeScript data types.
+- `190_unknown.ts` - explores the `unknown` type and safe value handling.
+- `191.ts` - additional TypeScript practice examples.
+- `192_TSObject.ts` - demonstrates object typing in TypeScript.
+- `194_DTNever.ts` - introduces the `never` type.
+- `195_IQ.ts` and `196_IQ2.ts` - TypeScript practice questions.
+- `Sample.ts` - sample TypeScript usage.
+
+### Chapter_26_Abstraction
+- The chapter folder is currently reserved for future abstraction examples.
+
 ## Top-level files
 - `Imp_Notes.txt` - implementation notes, reminders, and study pointers.
 - `String_CheatSheet.md` - quick reference notes for JavaScript string concepts.
 - `skillcreationStructure.md` - repository organization notes and project workflow guidance.
 - `TestPlanPrompt_RICEPOTS.txt` - planning notes or testing prompts for the project.
+- `tsconfig.json` - TypeScript compiler settings used by the repository.
+- `scripts/go-go-go.ps1` - PowerShell helper for checking the README path and committing repository updates.
 
 ## Purpose
 
@@ -272,12 +300,19 @@ cd .\PlaywrightLearning\Chapter_10_Arrays
 node 70_ArraySearching.js
 ```
 
+To run a TypeScript example, compile it from the repository root with the TypeScript compiler, for example:
+
+```powershell
+tsc .\PlaywrightLearning\Chapter_25_TypescriptIntro\187.ts --noEmit
+```
+
 ## Changelog
 
 - 2026-07-28: Added `Chapter_10_Arrays` documentation and file descriptions.
 - 2026-08-07: Updated README to reflect the complete current codebase structure.
 - 2026-08-12: Added `Chapter_14_Objects` and `Chapter_15_MultiDimensionalArray` descriptions and new top-level reference files.
 - 2026-08-30: Refreshed the README for the newer callback, Promise, async/await, export/import, and OOP chapters added to the learning repo.
+- 2026-09-03: Added documentation for polymorphism, OOP interview questions, TypeScript, abstraction, repository scripts, and compiler configuration.
 
 ## Playwright
 
