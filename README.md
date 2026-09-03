@@ -30,7 +30,7 @@ A personal learning repository for practicing JavaScript fundamentals and Playwr
   - `Chapter_23_Polymorphism/` - method overriding and polymorphism examples.
   - `Chapter_24_OOPSInterviewQs/` - interview-style questions covering object-oriented programming concepts.
   - `Chapter_25_TypescriptIntro/` - TypeScript functions, data types, objects, `unknown`, and `never`.
-  - `Chapter_26_Abstraction/` - reserved chapter folder for abstraction examples.
+  - `Chapter_26_Abstraction/` - TypeScript abstraction examples, currently focused on interfaces.
   - `Imp_Notes.txt` - implementation notes, reminders, and study pointers.
   - `String_CheatSheet.md` - quick reference notes for JavaScript string concepts.
   - `102_Hoisting_TDZ.md` - additional notes on hoisting and temporal dead zone behavior.
@@ -275,7 +275,16 @@ A personal learning repository for practicing JavaScript fundamentals and Playwr
 - `Sample.ts` - sample TypeScript usage.
 
 ### Chapter_26_Abstraction
-- The chapter folder is currently reserved for future abstraction examples.
+#### Interface
+- `197_Interface.ts` - defines an interface for validating the shape of user objects.
+- `198_ReadonlyAttributes.ts` - demonstrates readonly interface properties.
+- `199_Interface_PageObjects.ts` - models page-object data with interface inheritance.
+- `200_APIResponse.ts` - models API response data with optional headers.
+- `201_InterfaceWithMethods.ts` - defines and implements methods in an interface-backed object.
+- `202_InterfaceRTHooks.ts` - uses a callable interface for test hooks.
+- `203_RealConfig.ts` - models local and CI test configurations with optional settings.
+- `204_ClassImplementInterface.ts` - demonstrates a class implementing an interface.
+- `205_InterfaceMisc.ts` - demonstrates a string index signature for dictionary-like objects.
 
 ## Top-level files
 - `Imp_Notes.txt` - implementation notes, reminders, and study pointers.
@@ -312,7 +321,7 @@ tsc .\PlaywrightLearning\Chapter_25_TypescriptIntro\187.ts --noEmit
 - 2026-08-07: Updated README to reflect the complete current codebase structure.
 - 2026-08-12: Added `Chapter_14_Objects` and `Chapter_15_MultiDimensionalArray` descriptions and new top-level reference files.
 - 2026-08-30: Refreshed the README for the newer callback, Promise, async/await, export/import, and OOP chapters added to the learning repo.
-- 2026-09-03: Added documentation for polymorphism, OOP interview questions, TypeScript, abstraction, repository scripts, and compiler configuration.
+- 2026-09-03: Added documentation for polymorphism, OOP interview questions, TypeScript, abstraction interfaces, repository scripts, and compiler configuration.
 
 ## Playwright
 
