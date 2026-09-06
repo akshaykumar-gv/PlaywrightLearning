@@ -286,6 +286,26 @@ A personal learning repository for practicing JavaScript fundamentals and Playwr
 - `204_ClassImplementInterface.ts` - demonstrates a class implementing an interface.
 - `205_InterfaceMisc.ts` - demonstrates a string index signature for dictionary-like objects.
 
+### Chapter_27_Enums
+- `206_Enums.ts` - introduces string enums for representing test statuses.
+- `207_Enum2.ts` - demonstrates severity levels with a string enum.
+- `208_EnumRTENV.ts` - maps named environments to API base URLs.
+- `209_EnumRTBA.ts` - selects browser launch behavior with an enum and switch statement.
+- `210_EnumRTAPI.ts` - represents HTTP methods with an enum for API requests.
+
+### Chapter_28_TSGeneric
+- `211_Generic.ts` - compares a strictly typed first-element function with a generic implementation.
+- `212_Generic_Class.ts` - stores and retrieves typed test data with a generic class.
+- `213_Generic_RT_API.ts` - wraps API response data in a reusable generic response shape.
+
+### Chapter_29_Public_Protected_Private
+- `214_PPP.ts` - demonstrates public, protected, and private class member access.
+- `215_PPPRTPOM.ts` - uses a protected base-page URL and navigation method in a login page object.
+- `216_Readonly.ts` - models an immutable Playwright configuration with private readonly properties.
+
+### Chapter_30_AbstractClass
+- `217_AbstractClass.ts` - defines an abstract test base class and a UI test implementation with setup, execution, and teardown phases.
+
 ## Top-level files
 - `Imp_Notes.txt` - implementation notes, reminders, and study pointers.
 - `String_CheatSheet.md` - quick reference notes for JavaScript string concepts.
@@ -322,6 +342,7 @@ tsc .\PlaywrightLearning\Chapter_25_TypescriptIntro\187.ts --noEmit
 - 2026-08-12: Added `Chapter_14_Objects` and `Chapter_15_MultiDimensionalArray` descriptions and new top-level reference files.
 - 2026-08-30: Refreshed the README for the newer callback, Promise, async/await, export/import, and OOP chapters added to the learning repo.
 - 2026-09-03: Added documentation for polymorphism, OOP interview questions, TypeScript, abstraction interfaces, repository scripts, and compiler configuration.
+- 2026-09-06: Added documentation for TypeScript enums, generics, access modifiers, readonly properties, and abstract classes.
 
 ## Playwright
 
